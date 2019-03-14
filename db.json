@@ -1,0 +1,469 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "admin",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "username": "Quentin",
+      "password": "quentin",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "username": "Sophia",
+      "password": "sophia",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "username": "Martin",
+      "password": "martin",
+      "isAdmin": false
+    },
+    {
+      "id": 5,
+      "username": "Billy",
+      "password": "billy",
+      "isAdmin": false
+    },
+    {
+      "id": 6,
+      "username": "Adder",
+      "password": "adder",
+      "isAdmin": false
+    }
+  ],
+  "titles": [
+    {
+      "id": 1,
+      "name": "Blade Runner"
+    },
+    {
+      "id": 2,
+      "name": "Groundhog Day"
+    }
+  ],
+  "versions": [
+    {
+      "id": 1,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 1,
+        "username": "Admin"
+      },
+      "parentVersionId": 0,
+      "description": "From Wikipedia",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": [
+            {
+              "nextVersionId": 2,
+              "nextSentenceContents": "Carla looks at the door until it stops."
+            },
+            {
+              "nextVersionId": 3,
+              "nextSentenceContents": "She shout to him to leave her alone and to fuck off."
+            }
+          ]
+        },
+        {
+          "contents": "The door opens.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 2,
+        "username": "Quentin"
+      },
+      "parentVersionId": 1,
+      "description": "We learn at the beginning she is a replicant",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "Carla looks at the door until it stops.",
+          "isDraft": false,
+          "authorId": 2,
+          "nexts": []
+        },
+        {
+          "contents": "She knows she will die in 79 days and 19 hours.",
+          "isDraft": false,
+          "authorId": 2,
+          "nexts": [
+            {
+              "nextVersionId": 4,
+              "nextSentenceContents": "She turns on her toy and have fun."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 3,
+        "username": "Sophia"
+      },
+      "parentVersionId": 1,
+      "description": "We indroduce the radio",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "She shout to him to leave her alone and to fuck off.",
+          "isDraft": false,
+          "authorId": 3,
+          "nexts": [
+            {
+              "nextVersionId": 5,
+              "nextSentenceContents": "I'm the postman says a little voice."
+            },
+            {
+              "nextVersionId": 6,
+              "nextSentenceContents": "The dog starts to bark."
+            }
+          ]
+        },
+        {
+          "contents": "The radio says tonight it gonna rain.",
+          "isDraft": false,
+          "authorId": 3,
+          "nexts": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 4,
+        "username": "Martin"
+      },
+      "parentVersionId": 2,
+      "description": "The machine needs a toy",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "Carla looks at the door until it stops.",
+          "isDraft": false,
+          "authorId": 2,
+          "nexts": []
+        },
+        {
+          "contents": "She knows she will die in 79 days and 19 hours.",
+          "isDraft": false,
+          "authorId": 2,
+          "nexts": []
+        },
+        {
+          "contents": "She turns on her toy and have fun.",
+          "isDraft": false,
+          "authorId": 4,
+          "nexts": []
+        },
+        {
+          "contents": "The night comes without a warning.",
+          "isDraft": false,
+          "authorId": 4,
+          "nexts": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 5,
+        "username": "Billy"
+      },
+      "parentVersionId": 3,
+      "description": "It will snow",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "She shout to him to leave her alone and to fuck off.",
+          "isDraft": false,
+          "authorId": 3,
+          "nexts": []
+        },
+        {
+          "contents": "I'm the postman says a little voice.",
+          "isDraft": false,
+          "authorId": 5,
+          "nexts": []
+        },
+        {
+          "contents": "You can fuck off too, she answers.",
+          "isDraft": false,
+          "authorId": 5,
+          "nexts": []
+        },
+        {
+          "contents": "The radio says tonight it gonna snow.",
+          "isDraft": false,
+          "authorId": 5,
+          "nexts": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "id": 1,
+        "name": "Blade Runner"
+      },
+      "author": {
+        "id": 6,
+        "username": "Adder"
+      },
+      "parentVersionId": 3,
+      "description": "The dog is barking",
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "Carla is lying on the bed smoking a cigarette.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "One knocks at the door.",
+          "isDraft": false,
+          "authorId": 1,
+          "nexts": []
+        },
+        {
+          "contents": "She shout to him to leave her alone and to fuck off.",
+          "isDraft": false,
+          "authorId": 3,
+          "nexts": []
+        },
+        {
+          "contents": "The dog starts to bark.",
+          "isDraft": false,
+          "authorId": 6,
+          "nexts": []
+        },
+        {
+          "contents": "Carla lights another cigarette.",
+          "isDraft": false,
+          "authorId": 6,
+          "nexts": []
+        }
+      ]
+    },
+    {
+      "description": "At the age of 47, Katrin is leaving France.",
+      "title": {
+        "id": 2,
+        "name": "Groundhog Day"
+      },
+      "author": {
+        "id": 2,
+        "username": "Quentin"
+      },
+      "parentVersionId": 0,
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "One.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Two.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": [
+            {
+              "nextVersionId": 9,
+              "nextSentenceContents": "Julia was born in France, the same day."
+            }
+          ]
+        },
+        {
+          "contents": "Three.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": [
+            {
+              "nextVersionId": 8,
+              "nextSentenceContents": "Better end."
+            }
+          ]
+        },
+        {
+          "contents": "Your text.",
+          "isDraft": false,
+          "authorId": 2,
+          "nexts": []
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": {
+        "id": 2,
+        "name": "Groundhog Day"
+      },
+      "author": {
+        "id": 3,
+        "username": "Sophia"
+      },
+      "parentVersionId": 7,
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "One.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Two.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Three.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Better end.",
+          "authorId": 3,
+          "isDraft": false,
+          "nexts": []
+        }
+      ],
+      "description": "Better end",
+      "id": 8
+    },
+    {
+      "title": {
+        "id": 2,
+        "name": "Groundhog Day"
+      },
+      "author": {
+        "id": 4,
+        "username": "Martin"
+      },
+      "parentVersionId": 7,
+      "isDraft": false,
+      "sentences": [
+        {
+          "contents": "One.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Two.",
+          "authorId": 2,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "Julia was born in France, the same day.",
+          "authorId": 4,
+          "isDraft": false,
+          "nexts": []
+        },
+        {
+          "contents": "She was a pretty girl.",
+          "authorId": 4,
+          "isDraft": false,
+          "nexts": []
+        }
+      ],
+      "description": "Julia was born in France.",
+      "id": 9
+    }
+  ]
+}

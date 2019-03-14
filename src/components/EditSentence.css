@@ -1,0 +1,15 @@
+/* /src/components/EditSentences.css */
+.btn-xs {
+    padding  : .25rem .4rem;
+    font-size  : .875rem;
+    line-height  : .5;
+    border-radius : .2rem;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    padding: 10px;
+    margin-bottom: 5px;
+}
